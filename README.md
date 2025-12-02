@@ -21,19 +21,19 @@ Une application web moderne et réactive pour la gestion complète de comptes ba
 <div align="center">
 
 ### 🏦 Interface Principale
-![Interface principale](../Screenshots/Screenshot%202025-12-02%20010830.png)
+![Interface principale](Screenshots/Screenshot%202025-12-02%20010830.png)
 *Vue d'ensemble de l'application avec création de comptes et gestion des transactions*
 
 ### 💳 Gestion des Comptes
-![Gestion des comptes](../Screenshots/Screenshot%202025-12-02%20011133.png)
+![Gestion des comptes](Screenshots/Screenshot%202025-12-02%20011133.png)
 *Liste des comptes avec détails (solde, type, date de création)*
 
 ### 💸 Ajout de Transactions
-![Ajout de transactions](../Screenshots/Screenshot%202025-12-02%20011138.png)
+![Ajout de transactions](Screenshots/Screenshot%202025-12-02%20011138.png)
 *Formulaire d'ajout de dépôts et retraits avec validation*
 
 ### 📊 Historique des Transactions
-![Historique](../Screenshots/Screenshot%202025-12-02%20011147.png)
+![Historique](Screenshots/Screenshot%202025-12-02%20011147.png)
 *Visualisation complète de l'historique des transactions*
 
 </div>
@@ -108,7 +108,7 @@ Assurez-vous d'avoir installé :
 ```bash
 # Cloner le repository
 git clone https://github.com/Saadkarz/tp16.git
-cd tp16/gestion-comptes
+cd tp16
 
 # Installer les dépendances
 npm install
@@ -180,7 +180,8 @@ Le serveur GraphQL sera accessible sur `http://localhost:8082/graphql`
 ## 📊 Architecture
 
 ```
-gestion-comptes/
+tp16/
+├── Screenshots/                 # Captures d'écran de l'application
 ├── public/                      # Fichiers statiques publics
 ├── src/
 │   ├── apollo/
@@ -198,6 +199,7 @@ gestion-comptes/
 │   ├── App.js                  # Composant principal
 │   ├── index.js                # Point d'entrée React
 │   └── index.css               # Styles globaux + Tailwind
+├── .gitignore                  # Fichiers à ignorer
 ├── package.json                # Dépendances et scripts
 ├── tailwind.config.js          # Configuration Tailwind CSS
 ├── postcss.config.js           # Configuration PostCSS
