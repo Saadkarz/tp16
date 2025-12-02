@@ -468,6 +468,6 @@ En cas de problème :
 
 ### ⭐ Si ce projet vous a été utile, n'hésitez pas à lui donner une étoile !
 
-Made with ❤️ by [Saad Karzazi](https://github.com/Saadkarz)
+Made with ❤️ by [Saad Karzouz](https://github.com/Saadkarz)
 
 </div>
